@@ -63,11 +63,8 @@ function Search({ hideButtons = false }) {
               <Settings className="search__rightside__navigationIcon" />
 
               <Apps id="apps" className="search__rightside__navigationIcon" />
-              <img
-                id="userinfo"
-                className="rounded-circle"
-                src="https://5.imimg.com/data5/RO/RA/JE/SELLER-3866941/gaming-desktop-pc-500x500.jpg"
-              />
+              <Avatar />
+
             </div>
           )}
         </div>
